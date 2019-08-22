@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.snow.customfunction.customefunction;
 import com.snow.util.TestUtil;
 import com.sun.javafx.PlatformUtil;
 
@@ -32,9 +33,14 @@ public class FlightBookingTest {
 		// driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait, TimeUnit.SECONDS);
 		driver.findElement(By.id("OneWay")).click();
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 		driver.findElement(By.id("FromTag")).clear();
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 		driver.findElement(By.id("FromTag")).sendKeys("Bangalore");
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 
 		// wait for the auto complete options to appear for the origin
 
@@ -54,14 +60,17 @@ public class FlightBookingTest {
 		destinationOptions.get(0).click();
 
 		driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[5]/td[5]/a")).click();
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 		// all fields filled in. Now click on search
 		driver.findElement(By.id("SearchBtn")).click();
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 		waitFor(5000);
 		// verify that result appears for the provided journey search
 		Assert.assertTrue(isElementPresent(By.className("searchSummary")));
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC01_FlightBookingTest");
 		// close the browser
 		driver.quit();
 

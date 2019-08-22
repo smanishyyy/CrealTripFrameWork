@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="174152" started-at="2019-08-21T20:28:41Z" finished-at="2019-08-21T20:31:35Z">
+  <suite name="Suite" duration-ms="142985" started-at="2019-08-22T03:53:57Z" finished-at="2019-08-22T03:56:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="174152" started-at="2019-08-21T20:28:41Z" finished-at="2019-08-21T20:31:35Z">
+    <test name="Test" duration-ms="142985" started-at="2019-08-22T03:53:57Z" finished-at="2019-08-22T03:56:20Z">
       <class name="TestCase.HotelBookingTest">
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestCase.HotelBookingTest@73846619]" name="shouldBeAbleToSearchForHotels" duration-ms="75513" started-at="2019-08-22T02:00:20Z" finished-at="2019-08-22T02:01:35Z">
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestCase.HotelBookingTest@73846619]" name="shouldBeAbleToSearchForHotels" duration-ms="55650" started-at="2019-08-22T09:25:24Z" finished-at="2019-08-22T09:26:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToSearchForHotels -->
       </class> <!-- TestCase.HotelBookingTest -->
       <class name="TestCase.SignInTest">
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestCase.SignInTest@3c0f93f1]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="42325" started-at="2019-08-22T01:59:38Z" finished-at="2019-08-22T02:00:20Z">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestCase.SignInTest@3c0f93f1]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="44097" started-at="2019-08-22T09:24:40Z" finished-at="2019-08-22T09:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
       </class> <!-- TestCase.SignInTest -->
       <class name="TestCase.FlightBookingTest">
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:TestCase.FlightBookingTest@2038ae61]" name="testThatResultsAppearForAOneWayJourney" duration-ms="56282" started-at="2019-08-22T01:58:41Z" finished-at="2019-08-22T01:59:38Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:TestCase.FlightBookingTest@2038ae61]" name="testThatResultsAppearForAOneWayJourney" duration-ms="43195" started-at="2019-08-22T09:23:57Z" finished-at="2019-08-22T09:24:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourney -->

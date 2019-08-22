@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.snow.customfunction.customefunction;
 import com.snow.util.TestUtil;
 import com.sun.javafx.PlatformUtil;
 
@@ -31,13 +32,18 @@ public class SignInTest {
 
 		driver.findElement(By.linkText("Your trips")).click();
 		waitFor(4000);
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC03_SignInTest");
 		driver.findElement(By.id("SignIn")).click();
 		driver.switchTo().frame("modal_window");
 		driver.findElement(By.id("signInButton")).click();
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC03_SignInTest");
 		String errors1 = driver.findElement(By.xpath("//*[@id=\"errors1\"]//span")).getText();
 		System.out.println("errors1 : " + errors1);
 		Assert.assertTrue(errors1.contains("There were errors in your submission"));
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC03_SignInTest");
 		driver.quit();
 	}
 

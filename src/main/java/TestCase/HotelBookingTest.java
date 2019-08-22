@@ -46,11 +46,15 @@ public class HotelBookingTest {
 		driver.get("https://www.cleartrip.com/");
 		hotel.hotelLink.click();
 		hotel.sendKeys();
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC02_HotelBookingTest");
 		waitFor(4000);
 		customefunction.pressEnter();
 
 		driver.findElement(By.xpath("//*[@id=\"SearchForm\"]/section[2]/div[1]/dl/dd/div/i")).click();
 		driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[2]/table/tbody/tr[5]/td[5]/a")).click();
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC02_HotelBookingTest");
 		driver.findElement(By.xpath("//*[@id=\"SearchForm\"]/section[2]/div[2]/dl/dd/div/i")).click();
 
 		driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[5]/td[6]/a")).click();
@@ -58,7 +62,8 @@ public class HotelBookingTest {
 		// Select sel=new Select(travellerSelection).selectByVisibleText("1 room, 2
 		// adults");
 		hotel.searchButton.click();
-
+		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
+				"TC02_HotelBookingTest");
 		driver.quit();
 
 	}
