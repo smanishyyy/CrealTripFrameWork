@@ -1,5 +1,6 @@
 package TestCase;
 
+import java.io.File;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
@@ -98,7 +99,10 @@ public class FlightBookingTest {
 			System.setProperty("webdriver.chrome.driver", "chromedriver");
 		}
 		if (PlatformUtil.isWindows()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:/Workspace/ClearTripFrameWork/chromedriver.exe");
+			String path = System.getProperty("user.dir");
+			String otherfolder = path + File.separator + "other";
+			System.out.println("path : " + path);
 		}
 		if (PlatformUtil.isLinux()) {
 			System.setProperty("webdriver.chrome.driver", "chromedriver_linux");

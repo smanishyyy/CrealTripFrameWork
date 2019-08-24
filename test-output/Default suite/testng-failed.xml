@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Flight.FlightBookingTest">
+      <class name="TestCase.FlightBookingTest">
         <methods>
           <include name="testThatResultsAppearForAOneWayJourney"/>
         </methods>
-      </class> <!-- Flight.FlightBookingTest -->
+      </class> <!-- TestCase.FlightBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

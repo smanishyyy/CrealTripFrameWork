@@ -51,19 +51,19 @@ public class SignInTest {
 		try {
 			Thread.sleep(durationInMilliSeconds);
 		} catch (InterruptedException e) {
-			e.printStackTrace(); // To change body of catch statement use File | Settings | File Templates.
+			e.printStackTrace(); // To change body of catch statement use File | Settings
 		}
 	}
 
 	private void setDriverPath() {
 		if (PlatformUtil.isMac()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver");
+			System.setProperty("webdriver.chrome.driver", "D:/Workspace/ClearTripFrameWork/chromedriver.exe");
 		}
 		if (PlatformUtil.isWindows()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:/Workspace/ClearTripFrameWork/chromedriver.exe");
 		}
 		if (PlatformUtil.isLinux()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
+			System.setProperty("webdriver.chrome.driver", "D:/Workspace/ClearTripFrameWork/chromedriver.exe");
 		}
 	}
 

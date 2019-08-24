@@ -72,7 +72,8 @@ public class HotelBookingTest {
 		try {
 			Thread.sleep(durationInMilliSeconds);
 		} catch (InterruptedException e) {
-			e.printStackTrace(); // To change body of catch statement use File | Settings | File Templates.
+			e.printStackTrace(); // To change body of catch statement use File | Settings
+
 		}
 	}
 
@@ -81,7 +82,7 @@ public class HotelBookingTest {
 			System.setProperty("webdriver.chrome.driver", "chromedriver");
 		}
 		if (PlatformUtil.isWindows()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:/Workspace/ClearTripFrameWork/chromedriver.exe");
 		}
 		if (PlatformUtil.isLinux()) {
 			System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
