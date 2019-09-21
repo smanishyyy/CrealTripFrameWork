@@ -29,8 +29,9 @@ public class FlightBookingTest {
 
 		driver.get("https://www.cleartrip.com/");
 		waitFor(2000);
-		driver.manage().window().maximize();
+
 		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
 		// driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait, TimeUnit.SECONDS);
 		driver.findElement(By.id("OneWay")).click();

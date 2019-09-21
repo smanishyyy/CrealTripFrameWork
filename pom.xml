@@ -26,76 +26,49 @@
 
 
  <dependencies>
-  
-  <dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.9</version>
+</dependency>
+
+ <dependency>
     <groupId>xml-apis</groupId>
     <artifactId>xml-apis</artifactId>
     <version>1.4.01</version>
 </dependency>
 <dependency>
-    <groupId>net.sf.jxls</groupId>
-    <artifactId>jxls-reader</artifactId>
-    <version>1.0.6</version>
-</dependency>
-<!-- dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>VERSION</version>
-</dependency> -->
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-collections4</artifactId>
+				<version>4.1</version>
+					</dependency>
 <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-collections4</artifactId>
-    <version>4.1</version>
-</dependency>
-	<dependency>
 	    <groupId>info.cukes</groupId>
 	    <artifactId>cucumber-picocontainer</artifactId>
 	    <version>1.2.5</version>
 	    <scope>test</scope>
 	</dependency>
+<dependency>
 
- <dependency>
+              <groupId>com.google.guava</groupId>
+
+              <artifactId>guava</artifactId>
+
+              <version>22.0</version>
+
+       </dependency>
+	 <dependency>
 
       <groupId>junit</groupId>
 
       <artifactId>junit</artifactId>
 
-      <version>4.11</version>
+      <version>4.13-beta-3</version>
 
       <scope>test</scope>
 
     </dependency>
-
-   
-
-    
-
-    
-
-<dependency>
-
-    <groupId>org.seleniumhq.selenium</groupId>
-
-    <artifactId>selenium-java</artifactId>
-
-    <version>3.2.0</version>
-
-    <scope>test</scope>
-</dependency>
-
- 
-
-<dependency>
-
-  <groupId>org.testng</groupId>
-
-  <artifactId>testng</artifactId>
-
-  <version>6.8</version>
-
-
-  <scope>test</scope>
-</dependency>
 <dependency>
 
 <groupId>info.cukes</groupId>
@@ -105,31 +78,13 @@
 <version>1.2.5</version>
 
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 <dependency>
-
-<groupId>info.cukes</groupId>
-
-<artifactId>cucumber-jvm-deps</artifactId>
-
-<version>1.0.5</version>
-
-<scope>provided</scope>
-
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.4</version>
+    <scope>test</scope>
 </dependency>
-
-<dependency>
-
-<groupId>info.cukes</groupId>
-
-<artifactId>cucumber-junit</artifactId>
-
-<version>1.2.5</version>
-
-<scope>test</scope>
-
-</dependency>
-
 <dependency>
 
     <groupId>info.cukes</groupId>
@@ -141,56 +96,43 @@
     <scope>provided</scope>
 
 </dependency>
-
 <dependency>
 
 <groupId>com.vimalselvam</groupId>
 
 <artifactId>cucumber-extentsreport</artifactId>
 
-<version>3.0.2</version>
+<version>3.1.1</version>
 
 </dependency>
-
 <dependency>
 
 <groupId>com.aventstack</groupId>
 
 <artifactId>extentreports</artifactId>
 
-<version>3.1.2</version>
+<version>4.0.9</version>
 
 </dependency>
-
- 
-
-
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>4.1.0</version>
 </dependency>
-
-
-
-    <dependency>
+ <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>4.1.0</version>
 </dependency>
-
- 
-
 <dependency>
 
     <groupId>log4j</groupId>
 
     <artifactId>log4j</artifactId>
 
-    <version>1.2.17</version>
+    <version>1.2.16</version>
 
 </dependency>
-
 <dependency>
 
     <groupId>info.cukes</groupId>
@@ -201,113 +143,80 @@
 
 </dependency>
 
- 
+
+		  
+       
+       <dependency>
+       
+
+  <groupId>org.testng</groupId>
+
+  <artifactId>testng</artifactId>
+
+ <version>6.14.3</version>
 
 
-
-
-  <dependency>
-
-        <groupId>com.google.guava</groupId>
-
-        <artifactId>guava</artifactId>
-
-        <version>19.0</version>
-
-    </dependency>
-
-    <dependency>
-
-    <groupId>com.google.collections</groupId>
-
-    <artifactId>google-collections</artifactId>
-
-    <version>1.0</version>
-
+  <scope>test</scope>
 </dependency>
-
 <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
 
-              <groupId>com.google.guava</groupId>
-
-              <artifactId>guava</artifactId>
-
-              <version>22.0</version>
-
-       </dependency>
-
-       <dependency>
-
-              <groupId>org.seleniumhq.selenium</groupId>
-
-              <artifactId>selenium-java</artifactId>
-
-              <version>3.2.0</version>
-
-       </dependency>
-
-       <dependency>
+        <dependency>
 
               <groupId>org.seleniumhq.selenium</groupId>
 
               <artifactId>selenium-server</artifactId>
 
-              <version>3.2.0</version>
+              <version>3.141.59</version>
 
        </dependency>
-       
-     <dependency>
+        <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-support</artifactId>
-    <version>2.0a7</version>
-     </dependency>
-     
+    <version>3.141.59</version>
+</dependency>
 <dependency>
 	<groupId>org.seleniumhq.selenium</groupId>
 	<artifactId>selenium-api</artifactId>
-	<version>3.14.0</version>
-</dependency>
-
-       
-     <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-support</artifactId>
-    <version>2.0a7</version>
-</dependency>
-     
-<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-api</artifactId>
-	<version>3.14.0</version>
+	 <version>3.141.59</version>
 </dependency>
 <dependency>
     <groupId>dom4j</groupId>
     <artifactId>dom4j</artifactId>
     <version>1.6.1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/jaxen/jaxen -->
+<!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.78</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
 <dependency>
     <groupId>jaxen</groupId>
     <artifactId>jaxen</artifactId>
     <version>1.2.0</version>
 </dependency>
-
 <dependency>
 	<groupId>com.vimalselvam</groupId>
 	<artifactId>cucumber-extentsreport</artifactId>
-	<version>3.0.2</version>
+	<version>3.1.1</version>
 </dependency>
-
-
 <dependency>
- <groupId>com.aventstack</groupId>
- <artifactId>extentreports</artifactId>
- <version>3.1.2</version>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
 </dependency>
-
-
-<!-- Thanks for using https://jar-download.com -->
-
 
   </dependencies>
 

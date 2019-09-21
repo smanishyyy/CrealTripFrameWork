@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import com.snow.customfunction.customefunction;
@@ -23,8 +23,9 @@ public class SignInTest {
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
 		setDriverPath();
-		driver.manage().window().maximize();
+
 		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
 		// driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait, TimeUnit.SECONDS);
 		driver.get("https://www.cleartrip.com/");
@@ -41,7 +42,7 @@ public class SignInTest {
 				"TC03_SignInTest");
 		String errors1 = driver.findElement(By.xpath("//*[@id=\"errors1\"]//span")).getText();
 		System.out.println("errors1 : " + errors1);
-		Assert.assertTrue(errors1.contains("There were errors in your submission"));
+		AssertJUnit.assertTrue(errors1.contains("There were errors in your submission"));
 		customefunction.captureScreenMethod(driver, "D:\\Workspace\\ClearTripFrameWork\\Screenshot_",
 				"TC03_SignInTest");
 		driver.quit();

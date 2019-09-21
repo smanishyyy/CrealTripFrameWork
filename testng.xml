@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCase.FlightBookingTest"/>
       <class name="TestCase.HotelBookingTest"/>
-        <class name="TestCase.SignInTest"/>
+       <class name="TestCase.SignInTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
