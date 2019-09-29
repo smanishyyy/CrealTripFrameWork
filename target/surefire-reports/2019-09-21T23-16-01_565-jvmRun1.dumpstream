@@ -1,0 +1,223 @@
+# Created at 2019-09-21T23:16:30.382
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-09-21T23:16:48.445
+Unexpected IOException with stream: DirPath : D:\Workspace\ClearTripFrameWork\Screenshot_
+
+
+# Created at 2019-09-21T23:16:50.649
+Unexpected IOException with stream: [
+
+# Created at 2019-09-21T23:16:50.650
+Unexpected IOException with stream: 1
+
+# Created at 2019-09-21T23:16:50.651
+Unexpected IOException with stream: 5
+
+# Created at 2019-09-21T23:16:50.652
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-21T23:16:50.653
+Unexpected IOException with stream: 9
+
+# Created at 2019-09-21T23:16:50.654
+Unexpected IOException with stream: 0
+
+# Created at 2019-09-21T23:16:50.655
+Unexpected IOException with stream: 8
+
+# Created at 2019-09-21T23:16:50.657
+Unexpected IOException with stream: 8
+
+# Created at 2019-09-21T23:16:50.657
+Unexpected IOException with stream: 0
+
+# Created at 2019-09-21T23:16:50.658
+Unexpected IOException with stream: 1
+
+# Created at 2019-09-21T23:16:50.659
+Unexpected IOException with stream: 0
+
+# Created at 2019-09-21T23:16:50.660
+Unexpected IOException with stream: .
+
+# Created at 2019-09-21T23:16:50.661
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-21T23:16:50.663
+Unexpected IOException with stream: 4
+
+# Created at 2019-09-21T23:16:50.664
+Unexpected IOException with stream: 5
+
+# Created at 2019-09-21T23:16:50.666
+Unexpected IOException with stream: ]
+
+# Created at 2019-09-21T23:16:50.667
+Unexpected IOException with stream: [
+
+# Created at 2019-09-21T23:16:50.668
+Unexpected IOException with stream: S
+
+# Created at 2019-09-21T23:16:50.669
+Unexpected IOException with stream: E
+
+# Created at 2019-09-21T23:16:50.669
+Unexpected IOException with stream: V
+
+# Created at 2019-09-21T23:16:50.670
+Unexpected IOException with stream: E
+
+# Created at 2019-09-21T23:16:50.671
+Unexpected IOException with stream: R
+
+# Created at 2019-09-21T23:16:50.672
+Unexpected IOException with stream: E
+
+# Created at 2019-09-21T23:16:50.673
+Unexpected IOException with stream: ]
+
+# Created at 2019-09-21T23:16:50.674
+Unexpected IOException with stream: :
+
+# Created at 2019-09-21T23:16:50.675
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.676
+Unexpected IOException with stream: U
+
+# Created at 2019-09-21T23:16:50.677
+Unexpected IOException with stream: n
+
+# Created at 2019-09-21T23:16:50.681
+Unexpected IOException with stream: a
+
+# Created at 2019-09-21T23:16:50.682
+Unexpected IOException with stream: b
+
+# Created at 2019-09-21T23:16:50.685
+Unexpected IOException with stream: l
+
+# Created at 2019-09-21T23:16:50.686
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.687
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.688
+Unexpected IOException with stream: t
+
+# Created at 2019-09-21T23:16:50.689
+Unexpected IOException with stream: o
+
+# Created at 2019-09-21T23:16:50.690
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.690
+Unexpected IOException with stream: r
+
+# Created at 2019-09-21T23:16:50.691
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.692
+Unexpected IOException with stream: c
+
+# Created at 2019-09-21T23:16:50.693
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.694
+Unexpected IOException with stream: i
+
+# Created at 2019-09-21T23:16:50.696
+Unexpected IOException with stream: v
+
+# Created at 2019-09-21T23:16:50.698
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.698
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.699
+Unexpected IOException with stream: m
+
+# Created at 2019-09-21T23:16:50.700
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.701
+Unexpected IOException with stream: s
+
+# Created at 2019-09-21T23:16:50.702
+Unexpected IOException with stream: s
+
+# Created at 2019-09-21T23:16:50.703
+Unexpected IOException with stream: a
+
+# Created at 2019-09-21T23:16:50.703
+Unexpected IOException with stream: g
+
+# Created at 2019-09-21T23:16:50.704
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.705
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.706
+Unexpected IOException with stream: f
+
+# Created at 2019-09-21T23:16:50.706
+Unexpected IOException with stream: r
+
+# Created at 2019-09-21T23:16:50.707
+Unexpected IOException with stream: o
+
+# Created at 2019-09-21T23:16:50.708
+Unexpected IOException with stream: m
+
+# Created at 2019-09-21T23:16:50.709
+Unexpected IOException with stream:  
+
+# Created at 2019-09-21T23:16:50.710
+Unexpected IOException with stream: r
+
+# Created at 2019-09-21T23:16:50.712
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.713
+Unexpected IOException with stream: n
+
+# Created at 2019-09-21T23:16:50.715
+Unexpected IOException with stream: d
+
+# Created at 2019-09-21T23:16:50.716
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.717
+Unexpected IOException with stream: r
+
+# Created at 2019-09-21T23:16:50.720
+Unexpected IOException with stream: e
+
+# Created at 2019-09-21T23:16:50.723
+Unexpected IOException with stream: r
+
+# Created at 2019-09-21T23:16:50.724
+Unexpected IOException with stream: 
+
+# Created at 2019-09-21T23:16:50.725
+Unexpected IOException with stream: 
+
+
+# Created at 2019-09-21T23:16:50.759
+Unexpected IOException: 8,1,TestCase.SignInTest,shouldThrowAnErrorIfSignInDetailsAreMissing(TestCase.SignInTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.56.1'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5...\002C userDataDir: C:\005CUsers\005CDell\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: 90aff8c102e18a91e46dd9818cae7373\000A*** Element info: {Using=id\002C value=signInButton},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.56.1'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5...\002C userDataDir: C:\005CUsers\005CDell\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: 90aff8c102e18a91e46dd9818cae7373\000A*** Element info: {Using=id\002C value=signInButton},SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing:40 \00BB NoSuchWindow no su...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=76.0.3809.132)\000A  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.56.1'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5...\002C userDataDir: C:\005CUsers\005CDell\005CAppData\005CLocal...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 76.0.3809.132\002C webStorageEnabled: true}\000ASession ID: 90aff8c102e18a91e46dd9818cae7373\000A*** Element info: {Using=id\002C value=signInButton}\000A\0009at TestCase.SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing(SignInTest.java:40)\000A
+
+
+# Created at 2019-09-21T23:16:51.098
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

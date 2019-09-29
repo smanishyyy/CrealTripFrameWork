@@ -11,7 +11,7 @@ public class Sortbyroll implements Comparator<Customer2> {
 		if (i1 < i2) {
 			return -1;
 		}
-		if (i1 < i2) {
+		if (i1 > i2) {
 			return +1;
 		} else {
 			return 0;
