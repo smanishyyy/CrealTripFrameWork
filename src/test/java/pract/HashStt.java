@@ -2,6 +2,7 @@ package pract;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class HashStt {
 	public static void main(String arg[]) {
@@ -15,5 +16,8 @@ public class HashStt {
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
+
+		LinkedList<Integer> ls = new LinkedList<>(hs);
+		System.out.println(ls);
 	}
 }
