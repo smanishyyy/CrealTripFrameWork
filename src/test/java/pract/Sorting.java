@@ -70,7 +70,7 @@ public class Sorting {
 
 			i++;
 		});
-
+System.out.println("LSSSSS : "+ls);
 		Set<Customer2> d = new HashSet<>(ls);
 		ls.clear();
 		ls.addAll(d);

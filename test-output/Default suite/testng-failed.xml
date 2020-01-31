@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCase.FlightBookingTest">
+      <class name="com.java.interview.HighlighterClass">
         <methods>
-          <include name="testThatResultsAppearForAOneWayJourney"/>
+          <include name="open"/>
+          <include name="tear"/>
+          <include name="highlighterElement"/>
         </methods>
-      </class> <!-- TestCase.FlightBookingTest -->
+      </class> <!-- com.java.interview.HighlighterClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

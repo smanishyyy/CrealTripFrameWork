@@ -14,11 +14,13 @@ public class PrintAllPrime {
 		int num = Integer.parseInt(br.readLine());
 
 		lb1: while (count != num) {
+			//System.out.println("Math : "+Math.sqrt(n) +  "n value is : "+n);
 			flag = true;
 			lb2: for (int i = 2; i <= Math.sqrt(n); i++) {
-				if (n % i == 0) {
+				if (n % i == 0) {//
 					flag = false;
-					break lb2;
+					//break lb2;
+					break;
 				}
 			}
 			if (flag) {

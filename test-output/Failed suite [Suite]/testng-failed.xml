@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="methods">
+  <test thread-count="4" name="All group(failed)(failed)" parallel="methods">
+    <parameter name="browserName" value="chromebrowser"/>
+    <groups>
+      <run>
+        <include name="AllGroups"/>
+        <include name="AllGroups2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ust.global.interview.TestNgg">
+        <methods>
+          <include name="next1"/>
+          <include name="tb"/>
+        </methods>
+      </class> <!-- com.ust.global.interview.TestNgg -->
+    </classes>
+  </test> <!-- All group(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

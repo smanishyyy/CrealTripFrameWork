@@ -1,6 +1,7 @@
 package TestCase;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
@@ -30,6 +31,9 @@ public class FlightBookingTest {
 		driver.get("https://www.cleartrip.com/");
 		waitFor(2000);
 
+		List<WebElement>ls=driver.findElements(By.xpath("Abs"));
+		ArrayList <WebElement>al=new ArrayList<WebElement>(ls);
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		// driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

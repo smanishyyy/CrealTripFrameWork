@@ -1,11 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="methods"  thread-count="4">
+  <test name="Test">
+  
+  <parameter name="browserName" value ="firefox"></parameter>
+  <groups>
+  
+  <define name="Regression1 include test cases">
+<include name="sani.*"></include>
+
+  </define>
+   <define name="Regression1 exclude test cases">
+<!-- <include name=".*ression"></include> -->
+
+  </define>
+  
+  <run>
+  <include name="Regression1 include test cases"></include>
+  <exclude name="Regression1 exclude test cases"></exclude>
+  </run>
+  </groups>
     <classes>
-      <class name="TestCase.FlightBookingTest"/>
-      <class name="TestCase.HotelBookingTest"/>
-       <class name="TestCase.SignInTest"/>
-    </classes>
+      <class name="com.ust.global.interview.TestNgg">
+   
+      <!-- <methods>
+      <include name ="tz"></include>
+      <include name ="zz"></include>
+      <include name ="tb"></include>
+      <include name ="t1"></include>
+<include name ="aa"></include>
+      </methods> -->
+      </class>
+          <class name="com.ust.global.interview.TestNg2">
+        <!--    <methods>
+          <include name ="first"></include>
+          <include name ="second"></include>
+          <include name ="fifth"></include>
+           </methods> -->
+          </class>
+   </classes>
   </test> <!-- Test -->
+  
+  <test name="Test second">
+  
+  
+  <groups>
+  
+  <define name="Regression1 include test cases">
+<include name="sani.*"></include>
+<include name="smo.*"></include>
+<include name=".*ression"></include>
+
+  </define>
+   <define name="Regression1 exclude test cases">
+
+
+  </define>
+  
+  <run>
+  <include name="Regression1 include test cases"></include>
+  <exclude name="Regression1 exclude test cases"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.ust.global.interview.TestNgg">
+   
+      <!-- <methods>
+      <include name ="tz"></include>
+      <include name ="zz"></include>
+      <include name ="tb"></include>
+      <include name ="t1"></include>
+<include name ="aa"></include>
+      </methods> -->
+      </class>
+          <class name="com.ust.global.interview.TestNg2">
+        <!--    <methods>
+          <include name ="first"></include>
+          <include name ="second"></include>
+          <include name ="fifth"></include>
+           </methods> -->
+          </class>
+   </classes>
+  </test> 
+  
+  <test name="All group">
+    <parameter name="browserName" value ="chromebrowser"></parameter>
+  <groups>
+  <run>
+  <include name="AllGroups"></include>
+    <include name="AllGroups2"></include>
+  </run>
+  </groups>
+  <classes>
+
+   <class name="com.ust.global.interview.TestNgg"></class>
+   <class name="com.ust.global.interview.TestNg2"></class>
+
+  </classes>
+  </test>
+  
+  <test name="package execution">
+    <parameter name="browserName" value ="chromebrowser"></parameter>
+ <groups>
+  <run>
+  <include name="AllGroups"></include>
+    <include name="AllGroups2"></include>
+  </run>
+  </groups> 
+  <packages>
+  <package name="com.ust.global.interview"></package>
+  </packages>
+  </test>
 </suite> <!-- Suite -->

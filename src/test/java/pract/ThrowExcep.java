@@ -8,6 +8,10 @@ public class ThrowExcep {
 			System.out.println("Caught inside fun().");
 			throw p; // rethrowing the exception
 		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("No");	
+		}
 	}
 
 	public static void main(String args[]) {

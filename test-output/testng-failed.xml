@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="4" name="All group(failed)" parallel="methods">
+    <parameter name="browserName" value="chromebrowser"/>
+    <groups>
+      <run>
+        <include name="AllGroups"/>
+        <include name="AllGroups2"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TestCase.HotelBookingTest">
+      <class name="com.ust.global.interview.TestNgg">
         <methods>
-          <include name="shouldBeAbleToSearchForHotels"/>
+          <include name="excludeGroup"/>
+          <include name="next1"/>
+          <include name="tb"/>
         </methods>
-      </class> <!-- TestCase.HotelBookingTest -->
+      </class> <!-- com.ust.global.interview.TestNgg -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- All group(failed) -->
+  <test thread-count="4" name="package execution(failed)" parallel="methods">
+    <parameter name="browserName" value="chromebrowser"/>
+    <groups>
+      <run>
+        <include name="AllGroups"/>
+        <include name="AllGroups2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ust.global.interview.TestNgg">
+        <methods>
+          <include name="excludeGroup"/>
+          <include name="next1"/>
+          <include name="tb"/>
+        </methods>
+      </class> <!-- com.ust.global.interview.TestNgg -->
+    </classes>
+  </test> <!-- package execution(failed) -->
 </suite> <!-- Failed suite [Suite] -->

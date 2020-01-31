@@ -18,6 +18,7 @@ RED,PINK,GREEN;
 		 System.out.println("Universal Color");
 	}
 	
+	
 }
 public class EnumConstr {
 public static void main(String arg[])

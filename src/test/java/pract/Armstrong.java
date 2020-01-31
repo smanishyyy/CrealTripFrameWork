@@ -12,6 +12,7 @@ public class Armstrong {
 		System.out.println("Enter integr : ");
 		int i = Integer.parseInt(br.readLine());
 		temp = i;
+		
 		while (i > 0) {
 			arm = i % 10;
 			sum = sum + arm * arm * arm;

@@ -3,7 +3,7 @@ package com.java.switchh;
 public class NestedSwitch {
 public static void main(String arg[])
 {
-	String Branch="CSF";
+	String Branch="CSE";
 	int year=2;
 	switch(year)
 	{

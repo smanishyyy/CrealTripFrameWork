@@ -29,7 +29,8 @@ public class StudentArray {
 
 			str = br.readLine();
 			if (str.equals("qq")) {
-				System.exit(0);
+				//System.exit(0);
+				break;
 			}
 			System.out.println("Enter id");
 			id = Integer.parseInt(br.readLine());

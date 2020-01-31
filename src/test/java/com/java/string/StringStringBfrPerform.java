@@ -10,7 +10,7 @@ public class StringStringBfrPerform {
 	System.out.println("Time taken by concating with string : "+(System.currentTimeMillis()-startTime)+"ms");
 	long startTime2=	System.currentTimeMillis();
 	concatWithStringBuuffer();
-	//System.out.println("Time taken by concating with string buffer : "+(System.currentTimeMillis()-startTime2)+"ms");
+	System.out.println("Time taken by concating with string buffer : "+(System.currentTimeMillis()-startTime2)+"ms");
 	}
 
 	private static StringBuffer concatWithStringBuuffer() {
